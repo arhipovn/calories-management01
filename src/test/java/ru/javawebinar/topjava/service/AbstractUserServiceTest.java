@@ -38,6 +38,9 @@ import static ru.javawebinar.topjava.UserTestData.*;
     @Autowired
     protected JpaUtil jpaUtil;
 
+  /*  @Autowired
+    protected JpaUtil jpaUtil;*/
+
     @Before
     public void setUp() throws Exception {
         service.evictCache();
